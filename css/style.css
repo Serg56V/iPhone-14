@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #717171;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header,
+.footer {
+  background: #0a0a0a;
+}
+.header__container,
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.menu > ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+.menu > ul li a, .footer_political {
+  cursor: pointer;
+  color: #717171;
+  text-decoration: none;
+}
+.menu > ul li a:hover {
+  color: white;
+}
+.logo {
+  width: 40px;
+}
+
+/*+++++++++++++++++++++++++++++*/
+section.main__iphone {
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: #490e84;
+  font-size: 77px;
+  text-transform: uppercase;
+}
+.main__iphone-img {
+  max-width: 937px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.main__iphone-btn {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 40px;
+  background: #490e84;
+  text-transform: uppercase;
+  width: 250px;
+  border-radius: 70px;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.main__iphone-btn:hover {
+  color: #490e84;
+  background: white;
+  border: 2px solid #490e84;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.what-new_block {
+  display: flex;
+}
+.what-new__text {
+  width: 50%;
+}
+.what-new__img {
+  margin: 0 auto;
+}
+.what-new__text-item {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.what-new__text-item-1 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: #191919;
+}
+
+/*++++++++++++++++++++++++++++++++++++ */
+.select-color_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+h3 {
+  color: #191919;
+  font-weight: 700;
+}
+p.color {
+  font-size: 14px;
+}
+
+/*++++++++++++++++++++++++++++++++++++ */
+form {
+  display: flex;
+}
+.form__left {
+  background: #574b63;
+  width: 50%;
+  padding-top: 50px;
+}
+.h2__form {
+  color: white;
+  margin-bottom: 60px;
+}
+.name-phone {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form__input {
+  margin-bottom: 20px;
+  background: none;
+  color: #aba5b1;
+  border: none;
+  border-bottom: 1px solid #F5F5F5;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+  color:#aba5b1;
+  font-size: 16px;
+}
+
+.form__text {
+  color: #aba5b1;
+  margin-bottom: 40px;
+}
+.form__button {
+  font-size: 18px;
+  font-weight: 700;
+  color: #490e84;
+  padding: 15px 40px;
+  background: white;
+  text-transform: uppercase;
+  width: 250px;
+  border-radius: 70px;
+  margin: auto;
+  margin-bottom: 30px;
+  border: 0;
+}
+.form__button:hover {
+  background: #490e84;
+  color: white;
+  cursor: pointer;
+}
+
+/*++++FOOTER++++++++++++++++++++++++++++++++ */
+.footer_political {
+
+}
